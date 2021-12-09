@@ -13,11 +13,11 @@ function clicked(){
                 let exp = data.tam_exp
                 let main = document.createElement("div")
                 main.className="container"
-                main.innerHTML = `<strong>Thirukural Number:</strong><i>${num}</i><br><br>
-                <strong>Athikaram:   </strong><i>${athigaram}</i><br><br>
-                <strong>Thalipu:   </strong><i>${title}</i><br><br>
-                <strong>Thirukural:   <br></strong><i>${lin1},<br>${lin2}</i><br><br>
-                <strong>Thirukural Vilakkam:   </strong><i>${exp}</i><br><br>
+                main.innerHTML = `<strong>Thirukkural Number:</strong><i>${num}</i><br><br>
+                <strong>Adhikaram:   </strong><i>${athigaram}</i><br><br>
+                <strong>Thallipu:   </strong><i>${title}</i><br><br>
+                <strong>ThirukKural:   <br></strong><i>${lin1},<br>${lin2}</i><br><br>
+                <strong>ThirukKural Vilakkam:   </strong><i>${exp}</i><br><br>
                 `
                 document.body.append(main)
     }
