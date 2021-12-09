@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/54/e8/12/54e812540ab281edef37fa3d94d4fa5f.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container-fluid{
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(255, 250, 177);
+    font-size: larger;
+}
+#input{
+    background-color:rgb(255, 208, 147) ;
+    border: none;
+    border-radius: 5px;
+}
+.container{
+    background-color: antiquewhite;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
