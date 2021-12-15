@@ -12,8 +12,8 @@ function clicked(){ // function for eventlistener
                 let lin2 = data.line2
                 let exp = data.tam_exp
                 let main = document.createElement("div") //creating the Div elements
-                main.className="container"
-                main.innerHTML = `<strong>Thirukkural Number:</strong><i>${num}</i><br><br> // appending the datas
+                main.className="container" //appending the datas
+                main.innerHTML = `<strong>Thirukkural Number:</strong><i>${num}</i><br><br>
                 <strong>Adhikaram:   </strong><i>${athigaram}</i><br><br>
                 <strong>Thallipu:   </strong><i>${title}</i><br><br>
                 <strong>ThirukKural:   <br></strong><i>${lin1},<br>${lin2}</i><br><br>
